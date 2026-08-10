@@ -1,7 +1,7 @@
 {
   "current": "sheffield-2026",
   "editions": [
-    { "id": "test", "status": "test", "label": "Test Data" },
+    { "id": "test", "status": "test", "label": "Meadowford Test Games", "year": 2026, "host": "Meadowford" },
     { "id": "sheffield-2026", "status": "trial", "label": "Sheffield 2026", "year": 2026, "host": "Sheffield" },
     { "id": "birmingham-2027", "status": "upcoming", "label": "Birmingham 2027", "year": 2027, "host": "Birmingham" }
   ]

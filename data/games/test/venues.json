@@ -1,1 +1,146 @@
-[]
+[
+  {
+    "id": "woodburn-road-track",
+    "name": "Meadowford Athletics Stadium",
+    "address": "1 Stadium Way, Meadowford, TE5T 1AA",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "canon-medical-arena",
+    "name": "Meadowford Arena",
+    "address": "Arena Rd, Meadowford, TE5T 1AB",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "english-institute-of-sport",
+    "name": "Meadowford Institute of Sport (MIS)",
+    "address": "Institute Rd, Meadowford, TE5T 1AC",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "don-valley-grass-bowl",
+    "name": "Meadow Grass Bowl",
+    "address": "Opposite the Meadowford Institute of Sport, Institute Rd, Meadowford, TE5T 1AC",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "steelers-sports-bar",
+    "name": "Testers Sports Bar",
+    "address": "2A Test Moor Rd, Meadowford, TE5T 1AD",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "hallamshire-tennis-squash-club",
+    "name": "Meadowford Tennis & Squash Club",
+    "address": "716 Example Rd, Meadowford, TE5T 1AE",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "hillsborough-golf-club",
+    "name": "Meadowford Golf Club",
+    "address": "Fairway Rd, Meadowford, TE5T 1AF",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "city-hall",
+    "name": "Meadowford Town Hall",
+    "address": "Assembly Row, Meadowford, TE5T 1AG",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "tudor-square",
+    "name": "Sample Square",
+    "address": "Meadowford City Centre, TE5T 1AH",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "forge-valley-school",
+    "name": "Meadow Valley School",
+    "address": "School Lane, Meadowford, TE5T 1AJ",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "hollywood-bowl",
+    "name": "Meadowbowl (Valley Leisure Park)",
+    "address": "Leisure Lane, Meadowford, TE5T 1AK",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "magna-science-park",
+    "name": "Meadowford Science Park",
+    "address": "Science Way, Meadowford, TE5T 1AL",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "steel-city-stadium",
+    "name": "Meadow City Stadium",
+    "address": "Stadium Rd, Meadowford, TE5T 1AM",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "ponds-forge",
+    "name": "Meadow Forge Sports Centre",
+    "address": "Centre Street, Meadowford, TE5T 1AN",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "hillsborough-park",
+    "name": "Meadowford Park Bowls Club",
+    "address": "Park Rd, Meadowford, TE5T 1AP",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "herringthorpe-athletics-stadium",
+    "name": "Meadowthorpe Athletics Stadium",
+    "address": "Middle Lane, Meadowford, TE5T 1AQ",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "cambridge-street-collective",
+    "name": "Meadow Street Collective",
+    "address": "11 Test Fields, Meadowford, TE5T 1AR",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  },
+  {
+    "id": "leisure-united-woodburn-road",
+    "name": "Leisure United 3G Pitches, Meadowford",
+    "address": "Stadium Way, Meadowford, TE5T 1AA",
+    "what3words": null,
+    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "source": "synthetic"
+  }
+]
