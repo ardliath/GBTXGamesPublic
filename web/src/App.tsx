@@ -59,6 +59,7 @@ export default function App() {
   }, [events]);
 
   const todayStr = new Date().toISOString().slice(0, 10);
+  const currentEdition = index?.editions.find((ed) => ed.id === editionId);
 
   const dayEvents = useMemo(() => {
     if (!events || !selectedDate) return [];
@@ -96,6 +97,17 @@ export default function App() {
           </select>
         )}
       </header>
+
+      {currentEdition?.lastUpdated && (
+        <p className="last-updated">
+          Schedule last updated{" "}
+          {new Date(currentEdition.lastUpdated).toLocaleDateString("en-GB", {
+            day: "numeric",
+            month: "long",
+            year: "numeric",
+          })}
+        </p>
+      )}
 
       {!events && !error && <p className="status-text">Loading…</p>}
 

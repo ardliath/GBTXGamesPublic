@@ -4,9 +4,11 @@ export interface Edition {
   label: string;
   year?: number;
   host?: string;
+  lastUpdated?: string; // ISO 8601
 }
 
 export interface IndexFile {
+  schemaVersion: number;
   current: string;
   editions: Edition[];
 }
