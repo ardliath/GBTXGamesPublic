@@ -34,4 +34,12 @@ export interface GameEvent {
   venueId: string;
   notes: string | null;
   source?: string;
+  // Used when the source has no clock time for this specific event, only its
+  // order within a longer session (e.g. a swimming start list) - lets the UI
+  // show "event 3 of 15" instead of a misleading/fabricated time.
+  sequence?: number;
+  sequenceTotal?: number;
+  sessionLabel?: string;
+  sessionStart?: string; // HH:MM
+  sessionEnd?: string; // HH:MM
 }

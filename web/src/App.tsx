@@ -66,7 +66,11 @@ export default function App() {
     return events
       .filter((e) => e.date === selectedDate)
       .filter((e) => !myEventsOnly || myEventIds.has(e.id))
-      .sort((a, b) => (a.reportTime ?? a.startTime ?? "").localeCompare(b.reportTime ?? b.startTime ?? ""));
+      .sort((a, b) =>
+        (a.reportTime ?? a.startTime ?? a.sessionStart ?? "").localeCompare(
+          b.reportTime ?? b.startTime ?? b.sessionStart ?? "",
+        ),
+      );
   }, [events, selectedDate, myEventsOnly, myEventIds]);
 
   if (error) {
@@ -174,22 +178,32 @@ export default function App() {
 
                   <p className={`event-status-badge badge-${status}`}>{STATUS_LABEL[status]}</p>
 
-                  <dl className="event-times">
-                    <div>
-                      <dt>Report by</dt>
-                      <dd>{formatTime(event.reportTime)}</dd>
-                    </div>
-                    <div>
-                      <dt>Starts</dt>
-                      <dd>{formatTime(event.startTime)}</dd>
-                    </div>
-                    {event.endTime && (
+                  {event.reportTime || event.startTime ? (
+                    <dl className="event-times">
                       <div>
-                        <dt>Ends</dt>
-                        <dd>{formatTime(event.endTime)}</dd>
+                        <dt>Report by</dt>
+                        <dd>{formatTime(event.reportTime)}</dd>
                       </div>
-                    )}
-                  </dl>
+                      <div>
+                        <dt>Starts</dt>
+                        <dd>{formatTime(event.startTime)}</dd>
+                      </div>
+                      {event.endTime && (
+                        <div>
+                          <dt>Ends</dt>
+                          <dd>{formatTime(event.endTime)}</dd>
+                        </div>
+                      )}
+                    </dl>
+                  ) : (
+                    event.sequence && (
+                      <p className="event-sequence">
+                        No fixed time - event {event.sequence} of {event.sequenceTotal} in{" "}
+                        {event.sessionLabel ?? "this session"}
+                        {event.sessionStart && ` (session runs ${event.sessionStart}–${event.sessionEnd})`}
+                      </p>
+                    )
+                  )}
 
                   {venue && (
                     <div className="event-venue">

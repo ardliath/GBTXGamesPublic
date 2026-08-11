@@ -27,12 +27,17 @@ export function what3wordsUrl(w3w: string): string {
 export type EventStatus = "upcoming" | "reporting" | "live" | "past";
 
 export function eventStatus(event: GameEvent, now: Date = new Date()): EventStatus {
-  const reportOrStart = event.reportTime ?? event.startTime;
-  if (!reportOrStart) return "upcoming";
+  // Fall back to the enclosing session's times when this specific event has
+  // no clock time of its own (e.g. swimming, ordered by sequence not time).
+  const reportTime = event.reportTime ?? event.sessionStart;
+  const startTime = event.startTime ?? event.sessionStart;
+  const endTime = event.endTime ?? event.sessionEnd;
 
-  const start = new Date(`${event.date}T${(event.startTime ?? event.reportTime)}:00`);
-  const report = event.reportTime ? new Date(`${event.date}T${event.reportTime}:00`) : null;
-  const end = event.endTime ? new Date(`${event.date}T${event.endTime}:00`) : null;
+  if (!reportTime && !startTime) return "upcoming";
+
+  const start = new Date(`${event.date}T${startTime ?? reportTime}:00`);
+  const report = reportTime ? new Date(`${event.date}T${reportTime}:00`) : null;
+  const end = endTime ? new Date(`${event.date}T${endTime}:00`) : null;
 
   if (end && now > end) return "past";
   if (now >= start) return "live";
