@@ -19,6 +19,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null);
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [myEventsOnly, setMyEventsOnly] = useState(false);
+  const [search, setSearch] = useState("");
 
   const { selected: myEventIds, toggle: toggleMyEvent } = useMyEvents(editionId ?? "none");
 
@@ -38,6 +39,7 @@ export default function App() {
     setEvents(null);
     setVenues(null);
     setSelectedDate(null);
+    setSearch("");
     Promise.all([loadEvents(editionId), loadVenues(editionId)])
       .then(([ev, ve]) => {
         setEvents(ev);
@@ -61,17 +63,25 @@ export default function App() {
   const todayStr = new Date().toISOString().slice(0, 10);
   const currentEdition = index?.editions.find((ed) => ed.id === editionId);
 
+  const searchTerm = search.trim().toLowerCase();
+
   const dayEvents = useMemo(() => {
     if (!events || !selectedDate) return [];
     return events
       .filter((e) => e.date === selectedDate)
       .filter((e) => !myEventsOnly || myEventIds.has(e.id))
+      .filter((e) => {
+        if (!searchTerm) return true;
+        const venueName = venueById.get(e.venueId)?.name ?? "";
+        const haystack = `${e.sport} ${e.category ?? ""} ${venueName}`.toLowerCase();
+        return haystack.includes(searchTerm);
+      })
       .sort((a, b) =>
         (a.reportTime ?? a.startTime ?? a.sessionStart ?? "").localeCompare(
           b.reportTime ?? b.startTime ?? b.sessionStart ?? "",
         ),
       );
-  }, [events, selectedDate, myEventsOnly, myEventIds]);
+  }, [events, selectedDate, myEventsOnly, myEventIds, searchTerm, venueById]);
 
   if (error) {
     return (
@@ -137,20 +147,46 @@ export default function App() {
             ))}
           </nav>
 
-          <label className="my-events-toggle">
-            <input
-              type="checkbox"
-              checked={myEventsOnly}
-              onChange={(e) => setMyEventsOnly(e.target.checked)}
-            />
-            My events only
-          </label>
+          <div className="filters-row">
+            <div className="search-box">
+              <input
+                type="search"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Search sport, category or venue…"
+                aria-label="Search this day's schedule"
+              />
+              {search && (
+                <button
+                  type="button"
+                  className="search-clear"
+                  onClick={() => setSearch("")}
+                  aria-label="Clear search"
+                >
+                  ✕
+                </button>
+              )}
+            </div>
+
+            <label className="my-events-toggle">
+              <input
+                type="checkbox"
+                checked={myEventsOnly}
+                onChange={(e) => setMyEventsOnly(e.target.checked)}
+              />
+              My events only
+            </label>
+          </div>
 
           {selectedDate && <h2 className="day-heading">{formatDateHeading(selectedDate)}</h2>}
 
           {dayEvents.length === 0 && (
             <p className="status-text">
-              {myEventsOnly ? "You haven't starred any events on this day." : "Nothing scheduled."}
+              {searchTerm
+                ? `Nothing matching "${search}" on this day.`
+                : myEventsOnly
+                  ? "You haven't starred any events on this day."
+                  : "Nothing scheduled."}
             </p>
           )}
 

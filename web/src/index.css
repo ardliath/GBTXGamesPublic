@@ -111,13 +111,51 @@ body {
   color: #fff;
 }
 
+.filters-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.search-box {
+  position: relative;
+  flex: 1 1 220px;
+  min-width: 160px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.search-clear {
+  position: absolute;
+  right: 0.4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--muted);
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 0.2rem;
+}
+
 .my-events-toggle {
   display: flex;
   align-items: center;
   gap: 0.4rem;
   font-size: 0.85rem;
   color: var(--muted);
-  margin-bottom: 0.75rem;
+  white-space: nowrap;
 }
 
 .day-heading {
