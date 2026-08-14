@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "current": "sheffield-2026",
   "editions": [
-    { "id": "test", "status": "test", "label": "Meadowford Test Games", "year": 2026, "host": "Meadowford", "lastUpdated": "2026-08-11T10:25:36+01:00" },
-    { "id": "sheffield-2026", "status": "trial", "label": "Sheffield 2026", "year": 2026, "host": "Sheffield", "lastUpdated": "2026-08-11T10:25:36+01:00" },
+    { "id": "test", "status": "test", "label": "Meadowford Test Games", "year": 2026, "host": "Meadowford", "lastUpdated": "2026-08-14T19:12:48+01:00" },
+    { "id": "sheffield-2026", "status": "trial", "label": "Sheffield 2026", "year": 2026, "host": "Sheffield", "lastUpdated": "2026-08-14T19:12:48+01:00" },
     { "id": "birmingham-2027", "status": "upcoming", "label": "Birmingham 2027", "year": 2027, "host": "Birmingham", "lastUpdated": "2026-08-10T15:19:01+01:00" }
   ]
 }
