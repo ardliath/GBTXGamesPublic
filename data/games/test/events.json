@@ -10,7 +10,7 @@
     "reportTime": "14:00",
     "startTime": "14:00",
     "endTime": "18:00",
-    "venueId": "meadowford-arena",
+    "venueId": "first-direct-arena",
     "notes": "General Games registration desk.",
     "source": "synthetic"
   },
@@ -25,8 +25,8 @@
     "reportTime": "17:30",
     "startTime": "18:00",
     "endTime": "18:30",
-    "venueId": "meadowford-guildhall",
-    "notes": "Parade route: Market Square to the Guildhall.",
+    "venueId": "leeds-town-hall",
+    "notes": "Parade finishes at the Town Hall.",
     "source": "synthetic"
   },
   {
@@ -40,8 +40,8 @@
     "reportTime": "18:30",
     "startTime": "19:00",
     "endTime": "20:30",
-    "venueId": "meadowford-guildhall",
-    "notes": "Held in the Great Hall.",
+    "venueId": "leeds-town-hall",
+    "notes": "Held in the Victoria Hall.",
     "source": "synthetic"
   },
   {
@@ -55,7 +55,7 @@
     "reportTime": null,
     "startTime": null,
     "endTime": null,
-    "venueId": "meadowford-aquatics",
+    "venueId": "kirkstall-leisure-centre",
     "notes": "No clock time in the source start list - only event order. Session runs 09:00-11:30.",
     "source": "synthetic",
     "sequence": 1,
@@ -75,7 +75,7 @@
     "reportTime": null,
     "startTime": null,
     "endTime": null,
-    "venueId": "meadowford-aquatics",
+    "venueId": "kirkstall-leisure-centre",
     "notes": "No clock time in the source start list - only event order. Session runs 09:00-11:30. Medal ceremony follows this event.",
     "source": "synthetic",
     "sequence": 2,
@@ -95,7 +95,7 @@
     "reportTime": null,
     "startTime": null,
     "endTime": null,
-    "venueId": "meadowford-aquatics",
+    "venueId": "kirkstall-leisure-centre",
     "notes": "No clock time in the source start list - only event order. Session runs 09:00-11:30.",
     "source": "synthetic",
     "sequence": 3,
@@ -115,7 +115,7 @@
     "reportTime": null,
     "startTime": null,
     "endTime": null,
-    "venueId": "meadowford-aquatics",
+    "venueId": "kirkstall-leisure-centre",
     "notes": "No clock time in the source start list - only event order. Session runs 09:00-11:30.",
     "source": "synthetic",
     "sequence": 4,
@@ -135,7 +135,7 @@
     "reportTime": null,
     "startTime": null,
     "endTime": null,
-    "venueId": "meadowford-aquatics",
+    "venueId": "kirkstall-leisure-centre",
     "notes": "No clock time in the source start list - only event order. Session runs 09:00-11:30. Medal ceremony follows this event.",
     "source": "synthetic",
     "sequence": 5,
@@ -155,7 +155,7 @@
     "reportTime": "09:30",
     "startTime": "10:00",
     "endTime": "13:00",
-    "venueId": "meadowford-sports-hall",
+    "venueId": "aireborough-leisure-centre",
     "notes": "Group stage through to finals across 12 tables.",
     "source": "synthetic"
   },
@@ -170,7 +170,7 @@
     "reportTime": "13:30",
     "startTime": "14:00",
     "endTime": "16:30",
-    "venueId": "meadowford-sports-hall",
+    "venueId": "aireborough-leisure-centre",
     "notes": "Group stage through to finals across 12 tables.",
     "source": "synthetic"
   },
@@ -185,7 +185,7 @@
     "reportTime": "19:30",
     "startTime": "19:30",
     "endTime": "22:00",
-    "venueId": "meadowford-bowl",
+    "venueId": "leeds-civic-hall",
     "notes": "Teams of up to six. Everyone welcome.",
     "source": "synthetic"
   },
@@ -200,7 +200,7 @@
     "reportTime": "09:00",
     "startTime": "09:45",
     "endTime": "11:15",
-    "venueId": "meadowford-sports-hall",
+    "venueId": "aireborough-leisure-centre",
     "notes": "Practice 09:30. Awards 11:30.",
     "source": "synthetic"
   },
@@ -215,7 +215,7 @@
     "reportTime": "09:30",
     "startTime": "09:40",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Report time is the warm-up call; race start follows.",
     "source": "synthetic"
   },
@@ -230,7 +230,7 @@
     "reportTime": "10:15",
     "startTime": "10:30",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Report time is the warm-up call; race start follows.",
     "source": "synthetic"
   },
@@ -245,7 +245,7 @@
     "reportTime": "10:15",
     "startTime": "10:40",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Report time is the warm-up call; race start follows.",
     "source": "synthetic"
   },
@@ -260,7 +260,7 @@
     "reportTime": "11:15",
     "startTime": "11:30",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Report time is the warm-up call; race start follows.",
     "source": "synthetic"
   },
@@ -275,7 +275,7 @@
     "reportTime": "13:00",
     "startTime": "13:15",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Report time is the warm-up call; race start follows.",
     "source": "synthetic"
   },
@@ -290,7 +290,7 @@
     "reportTime": "09:30",
     "startTime": "10:00",
     "endTime": "11:30",
-    "venueId": "meadowford-sports-hall",
+    "venueId": "aireborough-leisure-centre",
     "notes": "First match of your group's session. Court 2.",
     "source": "synthetic"
   },
@@ -305,7 +305,7 @@
     "reportTime": "10:00",
     "startTime": "10:30",
     "endTime": "12:00",
-    "venueId": "meadowford-sports-hall",
+    "venueId": "aireborough-leisure-centre",
     "notes": "First match of your group's session. Court 3.",
     "source": "synthetic"
   },
@@ -320,7 +320,7 @@
     "reportTime": "10:00",
     "startTime": "10:30",
     "endTime": "12:00",
-    "venueId": "meadowford-arena",
+    "venueId": "first-direct-arena",
     "notes": "Heats then finals by age group (6-8, 9-11).",
     "source": "synthetic"
   },
@@ -335,7 +335,7 @@
     "reportTime": "13:00",
     "startTime": "13:30",
     "endTime": "16:00",
-    "venueId": "meadowford-arena",
+    "venueId": "first-direct-arena",
     "notes": null,
     "source": "synthetic"
   },
@@ -350,7 +350,7 @@
     "reportTime": "17:30",
     "startTime": "17:30",
     "endTime": "20:00",
-    "venueId": "meadowford-bowl",
+    "venueId": "leeds-civic-hall",
     "notes": null,
     "source": "synthetic"
   },
@@ -365,7 +365,7 @@
     "reportTime": "20:00",
     "startTime": "20:00",
     "endTime": "23:30",
-    "venueId": "meadowford-arena",
+    "venueId": "first-direct-arena",
     "notes": null,
     "source": "synthetic"
   },
@@ -380,7 +380,7 @@
     "reportTime": "09:00",
     "startTime": "09:30",
     "endTime": "12:00",
-    "venueId": "meadowford-sports-hall",
+    "venueId": "aireborough-leisure-centre",
     "notes": "Ages 6-8 on Courts 1+2, ages 9-11 on Courts 3+4.",
     "source": "synthetic"
   },
@@ -395,7 +395,7 @@
     "reportTime": "13:00",
     "startTime": "13:30",
     "endTime": "17:00",
-    "venueId": "meadowford-bowl",
+    "venueId": "leeds-civic-hall",
     "notes": null,
     "source": "synthetic"
   },
@@ -410,7 +410,7 @@
     "reportTime": null,
     "startTime": "16:30",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Open to everyone - donors, recipients and supporters. Report time not stated - assume the usual ~30 min before start.",
     "source": "synthetic"
   },
@@ -425,7 +425,7 @@
     "reportTime": "10:00",
     "startTime": "10:20",
     "endTime": null,
-    "venueId": "meadowford-athletics",
+    "venueId": "john-charles-centre",
     "notes": "Report time is the warm-up call; race start follows.",
     "source": "synthetic"
   },
@@ -440,7 +440,7 @@
     "reportTime": "12:30",
     "startTime": "13:00",
     "endTime": "15:30",
-    "venueId": "meadowford-arena",
+    "venueId": "first-direct-arena",
     "notes": null,
     "source": "synthetic"
   },
@@ -455,7 +455,7 @@
     "reportTime": "18:30",
     "startTime": "19:00",
     "endTime": "20:30",
-    "venueId": "meadowford-arena",
+    "venueId": "first-direct-arena",
     "notes": "Includes the official handover to the next host city.",
     "source": "synthetic"
   },
@@ -470,7 +470,7 @@
     "reportTime": "20:30",
     "startTime": "20:30",
     "endTime": "23:30",
-    "venueId": "meadowford-guildhall",
+    "venueId": "leeds-town-hall",
     "notes": null,
     "source": "synthetic"
   }

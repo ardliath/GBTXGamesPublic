@@ -1,50 +1,50 @@
 [
   {
-    "id": "meadowford-guildhall",
-    "name": "Meadowford Guildhall",
-    "address": "1 Market Square, Meadowford, TE5T 2AA",
+    "id": "leeds-town-hall",
+    "name": "Leeds Town Hall",
+    "address": "The Headrow, Leeds LS1 3AD",
     "what3words": null,
-    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "notes": "Real venue, used as a backdrop for fictional test data - this is not an actual Games venue and no event is really being held here.",
     "source": "synthetic"
   },
   {
-    "id": "meadowford-arena",
-    "name": "Meadowford Arena",
-    "address": "Arena Rd, Meadowford, TE5T 2AB",
+    "id": "first-direct-arena",
+    "name": "first direct arena",
+    "address": "Merrion Way, Leeds LS2 8BY",
     "what3words": null,
-    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "notes": "Real venue, used as a backdrop for fictional test data - this is not an actual Games venue and no event is really being held here.",
     "source": "synthetic"
   },
   {
-    "id": "meadowford-aquatics",
-    "name": "Meadowford Aquatics Centre",
-    "address": "Pool Lane, Meadowford, TE5T 2AC",
+    "id": "kirkstall-leisure-centre",
+    "name": "Kirkstall Leisure Centre",
+    "address": "Kirkstall Lane, Leeds LS5 3BE",
     "what3words": null,
-    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "notes": "Real venue, used as a backdrop for fictional test data - this is not an actual Games venue and no event is really being held here.",
     "source": "synthetic"
   },
   {
-    "id": "meadowford-athletics",
-    "name": "Meadowford Athletics Track",
-    "address": "1 Stadium Way, Meadowford, TE5T 2AD",
+    "id": "john-charles-centre",
+    "name": "John Charles Centre for Sport",
+    "address": "Middleton Grove, Leeds LS11 5DJ",
     "what3words": null,
-    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "notes": "Real venue, used as a backdrop for fictional test data - this is not an actual Games venue and no event is really being held here.",
     "source": "synthetic"
   },
   {
-    "id": "meadowford-sports-hall",
-    "name": "Meadowford Sports Hall",
-    "address": "Hall Rd, Meadowford, TE5T 2AE",
+    "id": "aireborough-leisure-centre",
+    "name": "Aireborough Leisure Centre",
+    "address": "The Green, Guiseley, Leeds LS20 9BT",
     "what3words": null,
-    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "notes": "Real venue, used as a backdrop for fictional test data - this is not an actual Games venue and no event is really being held here.",
     "source": "synthetic"
   },
   {
-    "id": "meadowford-bowl",
-    "name": "Meadowford Bowl",
-    "address": "2A Test Moor Rd, Meadowford, TE5T 2AF",
+    "id": "leeds-civic-hall",
+    "name": "Leeds Civic Hall",
+    "address": "Calverley Street, Leeds LS1 1UR",
     "what3words": null,
-    "notes": "Fictional venue - synthetic test data, not a real place.",
+    "notes": "Real venue, used as a backdrop for fictional test data - this is not an actual Games venue and no event is really being held here.",
     "source": "synthetic"
   }
 ]
