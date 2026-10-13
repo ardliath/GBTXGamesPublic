@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "current": "sheffield-2026",
+  "current": "test",
   "editions": [
     { "id": "test", "status": "test", "label": "Leeds Winter Games (demo)", "year": 2026, "host": "Leeds", "lastUpdated": "2026-10-08T18:04:53+01:00" },
     { "id": "sheffield-2026", "status": "trial", "label": "Sheffield 2026", "year": 2026, "host": "Sheffield", "lastUpdated": "2026-08-14T19:12:48+01:00" },
