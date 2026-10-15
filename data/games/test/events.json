@@ -280,6 +280,21 @@
     "source": "synthetic"
   },
   {
+    "id": "social-netball",
+    "sport": "Social Netball",
+    "category": "Family & friends - everyone welcome",
+    "participantType": "social",
+    "age": null,
+    "gender": null,
+    "date": "2026-12-16",
+    "reportTime": "17:45",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "venueId": "john-charles-centre",
+    "notes": "A relaxed game for family and friends who aren't competing. No experience needed.",
+    "source": "synthetic"
+  },
+  {
     "id": "squash-male-18-39",
     "sport": "Squash",
     "category": "Male 18-39",
